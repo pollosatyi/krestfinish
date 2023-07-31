@@ -88,7 +88,7 @@ bool Field::CheckFieldColumnForWin(char symbol)
 		int countOfSymbol = 0;
 		for (int rowCounter = 0; rowCounter < 3; rowCounter++) {
 
-			if (_field[colCounter][rowCounter] == symbol) {
+			if (_field[rowCounter][colCounter] == symbol) {
 				countOfSymbol++;
 			}
 
